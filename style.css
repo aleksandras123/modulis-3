@@ -1,7 +1,18 @@
+*
+{
+  box-sizing: border-box;
+}
 .container
 {
   width: 90%;
   margin: 0 auto;
+}
+
+a
+{
+  color: black;
+  padding-right: 10px;
+  text-decoration: none;
 }
 
 
@@ -17,15 +28,82 @@
 header
 {
   background-color:#B8CB21;
+
+}
+
 }
 
 
 .txtStyle
 {
   color: #B8CB21;
+  margin-left: 20px;
+
 }
 
-.txtStyle
-{
+}
 
+.txt
+{
+  text-align: justify;
+  width: 100%;
+}
+
+button
+{
+  background-color: #B8CB21;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  margin-left: 32em;
+}
+.inln
+{
+  display: inline;
+}
+
+.s1
+{
+  float:left;
+  width: 30%;
+
+}
+
+.s2
+{
+  width: 67%;
+  float: left;
+  padding-left: 3%
+
+
+}
+
+.img1
+{
+  width: 100%;
+
+}
+.img2
+{
+  float: left;
+  margin-right: 10px;
+}
+.txt2
+{
+  text-align: justify;
+
+}
+
+ul
+{
+  margin: 15px;
+}
+.butt
+{
+margin-left: 50%;
+}
+main:after {
+  content: "";
+  display: table;
+  clear: both;
 }
